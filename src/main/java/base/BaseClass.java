@@ -14,7 +14,9 @@ public class BaseClass {
     public WebDriver setUp() {
         ConfigReader reader= new ConfigReader();
         String urlOpen =  reader.getPropertyValue("url");
-        System.out.println("Url is.." + urlOpen);
+        System.out.println("Url is..1" + urlOpen);
+        System.out.println("Url is..2" + urlOpen);
+        System.out.println("Url is..3" + urlOpen);
         String maven_bro = System.getProperty("browser");
         if (driver == null) {
 
